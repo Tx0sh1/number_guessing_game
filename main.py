@@ -9,7 +9,7 @@ max_attempts = 3
 
 while tries < max_attempts:
     
-    guess = input("eter your guess between 1 to 10: \n")
+    guess = int(input("enter your guess between 1 to 10: \n"))
     
     if guess == number:
         print("you guess correctly")
